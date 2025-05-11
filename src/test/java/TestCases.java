@@ -22,10 +22,11 @@ public class TestCases {
 
     @BeforeMethod
     public WebDriver setup() {
-        //WebDriverManager.chromedriver().setup();
-        //driver = new ChromeDriver();
-        //driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-        //driver.manage().window().maximize();
+        /*WebDriverManager.chromedriver().setup();
+        driver = new ChromeDriver();
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+        driver.manage().window().maximize(); */
+        // LambdaTest setup
         if (driver == null) {
             try {
                 ChromeOptions browserOptions = new ChromeOptions();
